@@ -175,7 +175,7 @@ w     Letters, numbers and underscore             str
 W     Not letters, numbers and underscore         str
 s     Whitespace                                  str
 S     Non-whitespace                              str
-d     Digits (effectively integer numbers)        int
+d     Integer numbers (optional sign, digits)     int
 D     Non-digit                                   str
 n     Numbers with thousands separators (, or .)  int
 %     Percentage (converted to value/100.0)       float
@@ -187,7 +187,7 @@ g     General number format (either d, f or e)    float
 b     Binary numbers                              int
 o     Octal numbers                               int
 x     Hexadecimal numbers (lower and upper case)  int
-ti    ISO 8601 format date/time                   datetime
+ti    ISO 8601 format date/time                   dtetime
       e.g. 1972-01-20T10:21:36Z ("T" and "Z"
       optional)
 te    RFC2822 e-mail format date/time             datetime
